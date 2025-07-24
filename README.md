@@ -52,12 +52,6 @@ source venv/bin/activate
 ### 3. Install dependencies
 
 ```bash
-pip install -r requirements.txt
-```
-
-Or manually:
-
-```bash
 pip install streamlit langchain_google_genai python-dotenv
 ```
 
@@ -76,7 +70,7 @@ GOOGLE_API_KEY=your_gemini_api_key_here
 ## ▶️ Running the App
 
 ```bash
-streamlit run chat_generator.py
+streamlit run cod.py
 ```
 
 Visit `http://localhost:8501` in your browser to use the app.
